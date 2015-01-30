@@ -1,0 +1,66 @@
+header {
+	font-family: Goudy Old Style;
+	font-size:50px;
+	border:10px groove;
+    border-radius: 25px;
+	color: purple;
+}
+
+nav ul ul{
+	display:none;
+	text-align: center;
+}	
+nav ul li: hover>ul{
+	display:block;
+	text-align: center;
+}
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:#333;
+    background:url('http://s1.1zoom.net/big0/232/352255-admin.jpg') center center no-repeat;
+    background-size:100%;
+	background-attachment: fixed;
+    background-position: center; 
+}
+img {
+	height: auto;
+	width: auto;
+	max-width: 95%;
+	max-height: 240px;
+	position: right;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 2000px;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+
+#leftcolumn {
+    background: yellow;
+    font-size:10px;
+    font-family:Verdana;
+    margin: 0;
+    width: 250px;
+    height: 850px;
+    float: left;
+    padding:bottom;
+}
+footer {
+
+}
+
+
+
