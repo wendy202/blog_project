@@ -6,24 +6,32 @@ header {
 	color: purple;
 }
 
-nav ul ul{
-	display:none;
-	text-align: center;
-}	
-nav ul li: hover>ul{
-	display:block;
-	text-align: center;
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
 
 
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color:#333;
     background:url('http://s1.1zoom.net/big0/232/352255-admin.jpg') center center no-repeat;
     background-size:100%;
 	background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+     
 }
 img {
 	height: auto;
@@ -38,25 +46,24 @@ p {
 }
 
 #wrapper {
-    margin: 0 auto;
+	padding-right: 50px
     width: 2000px;
 }
-
 #content {
-    float: left;
+	float: right;
     background: #FFFFFF;
     width: 850px;
 }
 
 #leftcolumn {
     background: yellow;
-    font-size:10px;
+    font-size:20px 10px;
     font-family:Verdana;
     margin: 0;
     width: 250px;
-    height: 850px;
+    height:1000px;
     float: left;
-    padding:bottom;
+   
 }
 footer {
 
